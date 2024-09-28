@@ -19,6 +19,18 @@ body {
     max-width: 400px;
 }
 
+@media (max-width: 1080px) { /* Altere o valor conforme necessário */
+    body, html {
+        height: 100vh; /* Altura da viewport */
+    }
+    .container {
+        display: flex;
+        justify-content: center; /* Centraliza horizontalmente */
+        align-items: center; /* Centraliza verticalmente */
+        height: 100%; /* Para ocupar toda a altura */
+    }
+}
+
 h1 {
     margin-bottom: 10px;
 }
